@@ -8,17 +8,6 @@ import java.net.URL;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        /*Types of Dialogs
-            1.MessageDialog
-                parameters: parent component, message, title, message type (plain, information, question, warning, error)
-            2.ConfirmDialog
-                parameters: parent component, message, title, option type (YES_NO_CANCEL, YES, YES_NO ......)
-            3.InputDialog
-                parameters: question
-            4.OptionDialog
-                parameters: parent component, message, title, option type (YES_NO_CANCEL, YES, YES_NO ......), message type (plain, information, question, warning, error), icon, options, initial value
-                */
-
         int result;
         do{
             result = JOptionPane.showOptionDialog(null, "Do you want to install the latest version of PC-Destoryer", "Auto Update Notify", JOptionPane.YES_NO_OPTION, JOptionPane.INFORMATION_MESSAGE, null, null, 0);
